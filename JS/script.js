@@ -9,12 +9,12 @@ var pipeDown = new Image();
 var gameOver = new Image();
 
 //adding paths to each sprites
-bird.src = "../assets/bird.png";
-bg.src = "../assets/background.png";
-fg.src = "../assets/foreground.png";
-pipeUp.src = "../assets/pipeUp.png";
-pipeDown.src = "../assets/pipeDown.png";
-gameOver.src = "../assets/gameover.png";
+bird.src = "/assets/bird.png";
+bg.src = "/assets/background.png";
+fg.src = "/assets/foreground.png";
+pipeUp.src = "/assets/pipeUp.png";
+pipeDown.src = "/assets/pipeDown.png";
+gameOver.src = "/assets/gameover.png";
 
 //settings
 var score = 0;
